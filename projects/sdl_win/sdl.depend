@@ -1,0 +1,5421 @@
+# depslib dependency file v1.0
+1531244978 source:c:\users\milan toth\desktop\sdltest\01_hello_sdl.cpp
+	<SDL.h>
+	<stdio.h>
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\begin_code.h
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\close_code.h
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925811 c:\users\milan toth\desktop\sdl2\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\ext\jsmn.c
+	<stddef.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1531245643 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\font.c
+	<stdint.h>
+	"../core/mtbmp.c"
+	"../core/mtstr.c"
+	"../core/mtvec.c"
+	"../ext/stb_truetype.h"
+	"../ui/text.c"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+	"../tools/floatbuffer.c"
+	"../ext/stb_truetype.h"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\ext\stb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<memory.h>
+
+1531243991 c:\users\milan toth\desktop\kinetic\game_swarm\framework\ui\text.c
+	"../../framework/tools/math2.c"
+	"../../framework/core/mtstr.c"
+
+1531245643 c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\image.c
+	"../core/mtmem.c"
+	"../core/mtbmp.c"
+	"../ext/stb_image.h"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\ext\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\json.c
+	"../ext/jsmn.c"
+	"../core/mtmap.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\ext\jsmn.c
+	<stddef.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\math1.c
+	<stdio.h>
+	<math.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1531326197 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glew.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1531319872 c:\users\milan toth\desktop\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1531243990 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1531243991 source:c:\users\milan toth\desktop\kinetic\game_swarm\framework\ui\text.c
+	"../../framework/tools/math2.c"
+	"../../framework/core/mtstr.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+	"ant.c"
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1531326197 c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glew.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\controller.c
+	<stdint.h>
+	"../framework/tools/ogl.c"
+	"../framework/ui/input.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/ui/input.h"
+	"../framework/core/mtbus.c"
+	"../framework/tools/settings.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\ui\input.h
+	"../core/mtstr.c"
+	"../tools/cmd.c"
+	"../tools/font.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\tools\font.c
+	<stdint.h>
+	"../core/mtbmp.c"
+	"../core/mtstr.c"
+	"../core/mtvec.c"
+	"../ext/stb_truetype.h"
+	"../ui/text.c"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+	"../tools/floatbuffer.c"
+	"../ext/stb_truetype.h"
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\ui.c
+	<float.h>
+	"../framework/tools/font.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"pixelfont.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1531243990 c:\users\milan toth\desktop\kinetic\game_swarm\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\pixelfont.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmem.c"
+	"../framework/tools/math2.c"
+
+1531320592 c:\users\milan toth\desktop\kinetic\game_swarm\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"GL/glu.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\scene.c
+	<stdio.h>
+	<sys/time.h>
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"grid.c"
+	<float.h>
+	<sys/time.h>
+	"ant.c"
+	"food.c"
+	"levels.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\levels.c
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+	"ant.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\levels.c
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\pixelfont.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmem.c"
+	"../framework/tools/math2.c"
+
+1531320592 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"GL/glu.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\scene.c
+	<stdio.h>
+	<sys/time.h>
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"grid.c"
+	<float.h>
+	<sys/time.h>
+	"ant.c"
+	"food.c"
+	"levels.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\ui.c
+	<float.h>
+	"../framework/tools/font.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"pixelfont.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1531243992 source:c:\users\milan toth\desktop\kinetic\game_swarm\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1531322681 source:c:\users\milan toth\desktop\kinetic\game_swarm\projects\sdl_win\main.c
+	<stdio.h>
+	<SDL2/SDL.h>
+	"../../sources/controller.c"
+	"../../framework/ui/input.h"
+	"../../framework/core/mtcstr.c"
+	<GL/glew.h>
+
+1531243992 c:\users\milan toth\desktop\kinetic\game_swarm\sources\controller.c
+	<stdint.h>
+	"../framework/tools/ogl.c"
+	"../framework/ui/input.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/ui/input.h"
+	"../framework/core/mtbus.c"
+	"../framework/tools/settings.c"
+
+1531319872 c:\users\milan toth\desktop\kinetic\game_swarm\projects\sdl_win\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1531318143 source:c:\users\milan toth\desktop\kinetic\game_swarm\projects\sdl_win\gl\glew.c
+	<GL/glew.h>
+	<GL/osmesa.h>
+	<GL/eglew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1531319872 c:\users\milan toth\desktop\kinetic\game_swarm\projects\sdl_win\gl\eglew.h
+	<sys/types.h>
+	<KHR/khrplatform.h>
+	<EGL/eglplatform.h>
+	<GL/glew.h>
+
+1531319873 c:\users\milan toth\desktop\kinetic\game_swarm\projects\sdl_win\gl\wglew.h
+	<windows.h>
+
+1531319872 c:\users\milan toth\desktop\kinetic\game_swarm\projects\sdl_win\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1539465586 c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1539465586 c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1543145716 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1539465586 c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1539465586 c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1539465586 c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1539465586 c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\math1.c
+	<stdio.h>
+	<math.h>
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1539693938 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1543145716 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1543145716 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1543145716 c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1539448450 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\text.c
+	<stdlib.h>
+	"../core/mtvec.c"
+	"../core/mtstr.c"
+
+1539465586 source:c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\sources\grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"grid2d.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\sources\ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1539693938 c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1539465586 c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1543145723 c:\users\milgra\desktop\kinetic\game_swarm\sources\defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1543145716 c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1543145723 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1539465587 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"grid2d.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1543145723 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1543145723 c:\users\milgra\desktop\kinetic\game_swarm\sources\scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1543145723 c:\users\milgra\desktop\kinetic\game_swarm\sources\levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\sources\control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1543145723 c:\users\milgra\desktop\kinetic\game_swarm\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\glow_es.vsh
+
+1543145723 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\glow_es.fsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\blur_es.vsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\blur_es.fsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\blend_es.vsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\blend_es.fsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\glow.vsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\glow.fsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\blur.vsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\blur.fsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\blend.vsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\shaders\blend.fsh
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1539465587 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\ui.c
+	<float.h>
+	"../framework/core/mtstr.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1539448450 c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\text.c
+	<stdlib.h>
+	"../core/mtvec.c"
+	"../core/mtstr.c"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\sources\voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1539465586 c:\users\milgra\desktop\kinetic\game_swarm\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1539465587 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1539462466 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\main.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<unistd.h>
+	<SDL2/SDL.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/settings.c"
+	"GL/glew.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\begin_code.h
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\close_code.h
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\sources\ui.c
+	<float.h>
+	"../framework/core/mtstr.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1539465587 source:c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\glew\glew.c
+	<GL/glew.h>
+	<GL/osmesa.h>
+	<GL/eglew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\gl\eglew.h
+	<sys/types.h>
+	<KHR/khrplatform.h>
+	<EGL/eglplatform.h>
+	<GL/glew.h>
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\gl\wglew.h
+	<windows.h>
+
+1539465587 c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+
+1539462322 source:c:\users\milgra\desktop\kinetic\game_swarm\projects\sdl_win\glew\glewinfo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glew.h>
+	<GL/eglew.h>
+	<GL/osmesa.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<AvailabilityMacros.h>
+	<GL/Regal.h>
+	<OpenGL/OpenGL.h>
+	<OpenGL/CGLTypes.h>
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\sources\grid2d.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+
+1542640137 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\grid2d.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+
+1542646226 source:c:\users\milgra\desktop\kinetic\game_swarm\sources\main.cpp
+	"../projects/steam/CInventory.hpp"
+	"GL/glew.h"
+	<windows.h>
+	<ShellApi.h>
+	"Bridge.h"
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<SDL.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<SDL2/SDL.h>
+	<time.h>
+	<stdio.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/settings.c"
+
+1542646381 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\cinventory.hpp
+	<stdio.h>
+	"steam/steam_api.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\steam_api.h
+	"isteamclient.h"
+	"isteamuser.h"
+	"isteamfriends.h"
+	"isteamutils.h"
+	"isteammatchmaking.h"
+	"isteamuserstats.h"
+	"isteamapps.h"
+	"isteamnetworking.h"
+	"isteamremotestorage.h"
+	"isteamscreenshots.h"
+	"isteammusic.h"
+	"isteammusicremote.h"
+	"isteamhttp.h"
+	"isteamcontroller.h"
+	"isteamugc.h"
+	"isteamapplist.h"
+	"isteamhtmlsurface.h"
+	"isteaminventory.h"
+	"isteamvideo.h"
+	"isteamparentalsettings.h"
+	"steam_api_internal.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamclient.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\steamtypes.h
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\steamclientpublic.h
+	"steamtypes.h"
+	"steamuniverse.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\steamuniverse.h
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamuser.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamfriends.h
+	"isteamclient.h"
+	"steamclientpublic.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamutils.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteammatchmaking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+	"matchmakingtypes.h"
+	"isteamclient.h"
+	"isteamfriends.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\matchmakingtypes.h
+	<stdio.h>
+	<string.h>
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamuserstats.h
+	"isteamclient.h"
+	"isteamremotestorage.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamremotestorage.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamapps.h
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamnetworking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamscreenshots.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteammusic.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteammusicremote.h
+	"isteamclient.h"
+	"isteammusic.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamhttp.h
+	"isteamclient.h"
+	"steamhttpenums.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\steamhttpenums.h
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamcontroller.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamugc.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamapplist.h
+	"isteamclient.h"
+	"steamtypes.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamhtmlsurface.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteaminventory.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamvideo.h
+	"isteamclient.h"
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\isteamparentalsettings.h
+
+1542640137 c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\steam\steam_api_internal.h
+
+1542646401 source:c:\users\milgra\desktop\kinetic\game_swarm\projects\steam\cinventory.cpp
+	"CInventory.hpp"
+	"steam/steam_api.h"
+	"../../sources/defaults.c"
+	"../../framework/core/mtbus.c"
+	"../../framework/core/mtcstr.c"
+	"../../framework/tools/settings.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\math1.c
+	<stdio.h>
+	<math.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1543499515 source:c:\users\milgra\desktop\termite\framework\tools\triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"grid2d.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\grid2d.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\ant.c
+	"grid.c"
+	"food.c"
+	<stdio.h>
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\defaults.c
+	<stdlib.h>
+	<stdint.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\food.c
+	<stdio.h>
+	"voxel.c"
+	"defaults.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\grid.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"grid2d.c"
+	"ant.c"
+	"food.c"
+	"defaults.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\grid2d.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/core/mtmap.c"
+	"../framework/tools/math2.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\levels.c
+	"ant.c"
+	"../framework/core/mtmem.c"
+	"food.c"
+	"scene.c"
+	"defaults.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\control.c
+	"voxel.c"
+	<sys/time.h>
+	"defaults.c"
+	<float.h>
+
+1543499518 c:\users\milgra\desktop\termite\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1543499515 c:\users\milgra\desktop\termite\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\glow_es.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\glow_es.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blur_es.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blur_es.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blend_es.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blend_es.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\glow.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\glow.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blur.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blur.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blend.vsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\shaders\blend.fsh
+
+1543499518 c:\users\milgra\desktop\termite\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1543499518 c:\users\milgra\desktop\termite\projects\sdl_win\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1543516581 source:c:\users\milgra\desktop\termite\sources\main.cpp
+	"../projects/steam/CInventory.hpp"
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"SDL.h"
+	"bridge.h"
+	<time.h>
+	<stdio.h>
+	"ui.c"
+	"scene.c"
+	"renderer.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/settings.c"
+
+1543504052 c:\users\milgra\desktop\termite\projects\steam\cinventory.hpp
+	<stdio.h>
+	"steam/steam_api.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steam_api.h
+	"isteamclient.h"
+	"isteamuser.h"
+	"isteamfriends.h"
+	"isteamutils.h"
+	"isteammatchmaking.h"
+	"isteamuserstats.h"
+	"isteamapps.h"
+	"isteamnetworking.h"
+	"isteamremotestorage.h"
+	"isteamscreenshots.h"
+	"isteammusic.h"
+	"isteammusicremote.h"
+	"isteamhttp.h"
+	"isteamcontroller.h"
+	"isteamugc.h"
+	"isteamapplist.h"
+	"isteamhtmlsurface.h"
+	"isteaminventory.h"
+	"isteamvideo.h"
+	"isteamparentalsettings.h"
+	"steam_api_internal.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamclient.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steamtypes.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steamclientpublic.h
+	"steamtypes.h"
+	"steamuniverse.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steamuniverse.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamuser.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamfriends.h
+	"isteamclient.h"
+	"steamclientpublic.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamutils.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteammatchmaking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+	"matchmakingtypes.h"
+	"isteamclient.h"
+	"isteamfriends.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\matchmakingtypes.h
+	<stdio.h>
+	<string.h>
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamuserstats.h
+	"isteamclient.h"
+	"isteamremotestorage.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamremotestorage.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamapps.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamnetworking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamscreenshots.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteammusic.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteammusicremote.h
+	"isteamclient.h"
+	"isteammusic.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamhttp.h
+	"isteamclient.h"
+	"steamhttpenums.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steamhttpenums.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamcontroller.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamugc.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamapplist.h
+	"isteamclient.h"
+	"steamtypes.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamhtmlsurface.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteaminventory.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamvideo.h
+	"isteamclient.h"
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\isteamparentalsettings.h
+
+1543499518 c:\users\milgra\desktop\termite\projects\steam\steam\steam_api_internal.h
+
+1543516241 c:\users\milgra\desktop\termite\sources\bridge.h
+
+1543499517 c:\users\milgra\desktop\termite\projects\sdl_droid\app\jni\src\bridge.h
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\begin_code.h
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\close_code.h
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499515 c:\users\milgra\desktop\termite\projects\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543499518 c:\users\milgra\desktop\termite\sources\ui.c
+	<float.h>
+	"../framework/core/mtstr.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1543499518 c:\users\milgra\desktop\termite\sources\voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1543499515 c:\users\milgra\desktop\termite\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"defaults.c"
+	<stdint.h>
+	"../framework/tools/floatbuffer.c"
+	"../framework/tools/ogl.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtbus.c"
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\scene.c
+	<stdio.h>
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	<float.h>
+	"ant.c"
+	"food.c"
+	"voxel.c"
+	"levels.c"
+	"control.c"
+	"renderer.c"
+	"particle.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\ui.c
+	<float.h>
+	"../framework/core/mtstr.c"
+	"../framework/core/mtcstr.c"
+	"../framework/core/mtvec.c"
+	"../framework/core/mtbus.c"
+	"../framework/tools/math2.c"
+	"voxelutil.c"
+	"renderer.c"
+	"defaults.c"
+	"voxel.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\sources\voxelutil.c
+	<stdio.h>
+	"../framework/tools/pixeltext.c"
+	"../framework/core/mtvec.c"
+	"voxel.c"
+	"defaults.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\projects\steam\cinventory.cpp
+	"CInventory.hpp"
+	"steam/steam_api.h"
+	"../../sources/defaults.c"
+	"../../framework/core/mtbus.c"
+	"../../framework/core/mtcstr.c"
+	"../../framework/tools/settings.c"
+
+1543499518 source:c:\users\milgra\desktop\termite\projects\sdl_win\glew\glew.c
+	<GL/glew.h>
+	<GL/osmesa.h>
+	<GL/eglew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1543499518 c:\users\milgra\desktop\termite\projects\sdl_win\gl\eglew.h
+	<sys/types.h>
+	<KHR/khrplatform.h>
+	<EGL/eglplatform.h>
+	<GL/glew.h>
+
+1543499518 c:\users\milgra\desktop\termite\projects\sdl_win\gl\wglew.h
+	<windows.h>
+
+1543499518 c:\users\milgra\desktop\termite\projects\sdl_win\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+
+1543516858 source:c:\users\milgra\desktop\termite\projects\sdl_win\bridge.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<ShellApi.h>
+	"../../sources/bridge.h"
+	"GL/glew.h"
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\math1.c
+	<stdio.h>
+	<math.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1539613040 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl_win\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1544388927 source:c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1544534479 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\buffers.c
+	"renderer.c"
+	"../framework/tools/floatbuffer.c"
+	"../framework/core/mtbus.c"
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/floatbuffer.c"
+	"defaults.c"
+	<stdint.h>
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1544384155 c:\users\milgra\desktop\kinetictemp\cortex\sources\defaults.c
+	<stdlib.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1544364000 c:\users\milgra\desktop\kinetictemp\cortex\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\glow_es.vsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\glow_es.fsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\blur_es.vsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\blur_es.fsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\blend_es.vsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\blend_es.fsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\glow.vsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\glow.fsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\blur.vsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\blur.fsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\blend.vsh
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\shaders\blend.fsh
+
+1544384155 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\defaults.c
+	<stdlib.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1544533569 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\excavator.c
+	<math.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"excavator.c"
+	<string.h>
+
+1544533569 c:\users\milgra\desktop\kinetictemp\cortex\sources\excavator.c
+	<math.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"excavator.c"
+	<string.h>
+
+1544439412 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\generator.c
+	<stdio.h>
+	"voxel.c"
+	"excavator.c"
+	"generator.c"
+	<string.h>
+
+1544439412 c:\users\milgra\desktop\kinetictemp\cortex\sources\generator.c
+	<stdio.h>
+	"voxel.c"
+	"excavator.c"
+	"generator.c"
+	<string.h>
+
+1544310783 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\levels.c
+
+1544486574 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\main.cpp
+	"../projects/steam/CInventory.hpp"
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+	"SDL.h"
+	"SDL_mixer.h"
+	"menu.c"
+	"scene.c"
+	"bridge.h"
+	"renderer.c"
+	"defaults.c"
+	"../framework/tools/cmd.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/settings.c"
+
+1543502259 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\cinventory.hpp
+	<stdio.h>
+	"steam/steam_api.h"
+
+1513635162 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\steam_api.h
+	"isteamclient.h"
+	"isteamuser.h"
+	"isteamfriends.h"
+	"isteamutils.h"
+	"isteammatchmaking.h"
+	"isteamuserstats.h"
+	"isteamapps.h"
+	"isteamnetworking.h"
+	"isteamremotestorage.h"
+	"isteamscreenshots.h"
+	"isteammusic.h"
+	"isteammusicremote.h"
+	"isteamhttp.h"
+	"isteamcontroller.h"
+	"isteamugc.h"
+	"isteamapplist.h"
+	"isteamhtmlsurface.h"
+	"isteaminventory.h"
+	"isteamvideo.h"
+	"isteamparentalsettings.h"
+	"steam_api_internal.h"
+
+1513635162 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamclient.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1513635162 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\steamtypes.h
+
+1513635162 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\steamclientpublic.h
+	"steamtypes.h"
+	"steamuniverse.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\steamuniverse.h
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamuser.h
+	"isteamclient.h"
+
+1513635162 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamfriends.h
+	"isteamclient.h"
+	"steamclientpublic.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamutils.h
+	"isteamclient.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteammatchmaking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+	"matchmakingtypes.h"
+	"isteamclient.h"
+	"isteamfriends.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\matchmakingtypes.h
+	<stdio.h>
+	<string.h>
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamuserstats.h
+	"isteamclient.h"
+	"isteamremotestorage.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamremotestorage.h
+	"isteamclient.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamapps.h
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamnetworking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamscreenshots.h
+	"isteamclient.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteammusic.h
+	"isteamclient.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteammusicremote.h
+	"isteamclient.h"
+	"isteammusic.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamhttp.h
+	"isteamclient.h"
+	"steamhttpenums.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\steamhttpenums.h
+
+1513635162 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamcontroller.h
+	"isteamclient.h"
+
+1499708518 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamugc.h
+	"isteamclient.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamapplist.h
+	"isteamclient.h"
+	"steamtypes.h"
+
+1513635162 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamhtmlsurface.h
+	"isteamclient.h"
+
+1513635162 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteaminventory.h
+	"isteamclient.h"
+
+1499708006 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamvideo.h
+	"isteamclient.h"
+
+1499708392 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\isteamparentalsettings.h
+
+1513635162 c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\steam\steam_api_internal.h
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\begin_code.h
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\close_code.h
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969642 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540969140 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl_mixer\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544437696 c:\users\milgra\desktop\kinetictemp\cortex\sources\menu.c
+	<stdio.h>
+	"voxel.c"
+	"scene.c"
+	"../framework/core/mtmem.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/pixeltext.c"
+	"../framework/tools/settings.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	<float.h>
+	"defaults.c"
+	"renderer.c"
+	"../framework/core/mtbus.c"
+
+1544439549 c:\users\milgra\desktop\kinetictemp\cortex\sources\scene.c
+	<stdio.h>
+	"voxel.c"
+	"buffers.c"
+	"generator.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/pixeltext.c"
+	"SDL.h"
+	"script.c"
+	"levels.c"
+	"particle.c"
+	"maincube.c"
+	"renderer.c"
+	"excavator.c"
+	"defaults.c"
+
+1544534479 c:\users\milgra\desktop\kinetictemp\cortex\sources\buffers.c
+	"renderer.c"
+	"../framework/tools/floatbuffer.c"
+	"../framework/core/mtbus.c"
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\script.c
+	"../framework/core/mtvec.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"generator.c"
+	"maincube.c"
+
+1544366002 c:\users\milgra\desktop\kinetictemp\cortex\sources\maincube.c
+	"voxel.c"
+	"../framework/tools/math3.c"
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\levels.c
+
+1544310783 c:\users\milgra\desktop\kinetictemp\cortex\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1544311640 c:\users\milgra\desktop\kinetictemp\cortex\sources\bridge.h
+
+1544388927 c:\users\milgra\desktop\kinetictemp\cortex\framework\tools\cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1544366002 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\maincube.c
+	"voxel.c"
+	"../framework/tools/math3.c"
+
+1544437696 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\menu.c
+	<stdio.h>
+	"voxel.c"
+	"scene.c"
+	"../framework/core/mtmem.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/pixeltext.c"
+	"../framework/tools/settings.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	<float.h>
+	"defaults.c"
+	"renderer.c"
+	"../framework/core/mtbus.c"
+
+1544310783 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1544310783 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/floatbuffer.c"
+	"defaults.c"
+	<stdint.h>
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1544439549 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\scene.c
+	<stdio.h>
+	"voxel.c"
+	"buffers.c"
+	"generator.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/pixeltext.c"
+	"SDL.h"
+	"script.c"
+	"levels.c"
+	"particle.c"
+	"maincube.c"
+	"renderer.c"
+	"excavator.c"
+	"defaults.c"
+
+1544310783 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\script.c
+	"../framework/core/mtvec.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"generator.c"
+	"maincube.c"
+
+1544364000 source:c:\users\milgra\desktop\kinetictemp\cortex\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1543503395 source:c:\users\milgra\desktop\kinetictemp\cortex\projects\steam\cinventory.cpp
+	"CInventory.hpp"
+	"steam/steam_api.h"
+	"../../sources/defaults.c"
+	"../../framework/core/mtbus.c"
+	"../../framework/core/mtcstr.c"
+	"../../framework/tools/settings.c"
+
+1544534639 source:c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl_win\bridge.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<ShellApi.h>
+	"../../sources/bridge.h"
+	"GL/glew.h"
+
+1539613040 source:c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl_win\glew\glew.c
+	<GL/glew.h>
+	<GL/osmesa.h>
+	<GL/eglew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1539613040 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl_win\gl\eglew.h
+	<sys/types.h>
+	<KHR/khrplatform.h>
+	<EGL/eglplatform.h>
+	<GL/glew.h>
+
+1539613040 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl_win\gl\wglew.h
+	<windows.h>
+
+1539613040 c:\users\milgra\desktop\kinetictemp\cortex\projects\sdl_win\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\core\mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\core\mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\core\mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\core\mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\core\mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\core\mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\core\mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\math1.c
+	<stdio.h>
+	<math.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\math3.c
+	<stdio.h>
+	<math.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\sdl_win\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\core\mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1544534809 source:c:\users\milgra\desktop\kinetic\cortex\framework\tools\triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1544535137 source:c:\users\milgra\desktop\kinetic\cortex\sources\buffers.c
+	"renderer.c"
+	"../framework/tools/floatbuffer.c"
+	"../framework/core/mtbus.c"
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/floatbuffer.c"
+	"defaults.c"
+	<stdint.h>
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\tools\floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\defaults.c
+	<stdlib.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\tools\settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\tools\ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\core\mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\glow_es.vsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\glow_es.fsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\blur_es.vsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\blur_es.fsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\blend_es.vsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\blend_es.fsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\glow.vsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\glow.fsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\blur.vsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\blur.fsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\blend.vsh
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\shaders\blend.fsh
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\defaults.c
+	<stdlib.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\excavator.c
+	<math.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"excavator.c"
+	<string.h>
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\excavator.c
+	<math.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"excavator.c"
+	<string.h>
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\generator.c
+	<stdio.h>
+	"voxel.c"
+	"excavator.c"
+	"generator.c"
+	<string.h>
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\generator.c
+	<stdio.h>
+	"voxel.c"
+	"excavator.c"
+	"generator.c"
+	<string.h>
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\levels.c
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\maincube.c
+	"voxel.c"
+	"../framework/tools/math3.c"
+
+1544609900 source:c:\users\milgra\desktop\kinetic\cortex\sources\menu.c
+	<stdio.h>
+	"voxel.c"
+	"scene.c"
+	"../framework/core/mtmem.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/pixeltext.c"
+	"../framework/tools/settings.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	<float.h>
+	"defaults.c"
+	"renderer.c"
+	"../framework/core/mtbus.c"
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\scene.c
+	<stdio.h>
+	"voxel.c"
+	"buffers.c"
+	"generator.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/pixeltext.c"
+	"SDL.h"
+	"script.c"
+	"levels.c"
+	"particle.c"
+	"maincube.c"
+	"renderer.c"
+	"excavator.c"
+	"defaults.c"
+
+1544535137 c:\users\milgra\desktop\kinetic\cortex\sources\buffers.c
+	"renderer.c"
+	"../framework/tools/floatbuffer.c"
+	"../framework/core/mtbus.c"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\framework\tools\pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\begin_code.h
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\close_code.h
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534809 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534810 c:\users\milgra\desktop\kinetic\cortex\projects\sdl\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\script.c
+	"../framework/core/mtvec.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"generator.c"
+	"maincube.c"
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\maincube.c
+	"voxel.c"
+	"../framework/tools/math3.c"
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\levels.c
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\particle.c
+	<stdio.h>
+	"voxel.c"
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/floatbuffer.c"
+	"defaults.c"
+	<stdint.h>
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\scene.c
+	<stdio.h>
+	"voxel.c"
+	"buffers.c"
+	"generator.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/pixeltext.c"
+	"SDL.h"
+	"script.c"
+	"levels.c"
+	"particle.c"
+	"maincube.c"
+	"renderer.c"
+	"excavator.c"
+	"defaults.c"
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\script.c
+	"../framework/core/mtvec.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"generator.c"
+	"maincube.c"
+
+1544534819 source:c:\users\milgra\desktop\kinetic\cortex\sources\voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1544534817 source:c:\users\milgra\desktop\kinetic\cortex\projects\steam\cinventory.cpp
+	"CInventory.hpp"
+	"steam/steam_api.h"
+	"../../sources/defaults.c"
+	"../../framework/core/mtbus.c"
+	"../../framework/core/mtcstr.c"
+	"../../framework/tools/settings.c"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\cinventory.hpp
+	<stdio.h>
+	"steam/steam_api.h"
+
+1544534818 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\steam_api.h
+	"isteamclient.h"
+	"isteamuser.h"
+	"isteamfriends.h"
+	"isteamutils.h"
+	"isteammatchmaking.h"
+	"isteamuserstats.h"
+	"isteamapps.h"
+	"isteamnetworking.h"
+	"isteamremotestorage.h"
+	"isteamscreenshots.h"
+	"isteammusic.h"
+	"isteammusicremote.h"
+	"isteamhttp.h"
+	"isteamcontroller.h"
+	"isteamugc.h"
+	"isteamapplist.h"
+	"isteamhtmlsurface.h"
+	"isteaminventory.h"
+	"isteamvideo.h"
+	"isteamparentalsettings.h"
+	"steam_api_internal.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamclient.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1544534818 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\steamtypes.h
+
+1544534818 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\steamclientpublic.h
+	"steamtypes.h"
+	"steamuniverse.h"
+
+1544534818 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\steamuniverse.h
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamuser.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamfriends.h
+	"isteamclient.h"
+	"steamclientpublic.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamutils.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteammatchmaking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+	"matchmakingtypes.h"
+	"isteamclient.h"
+	"isteamfriends.h"
+
+1544534818 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\matchmakingtypes.h
+	<stdio.h>
+	<string.h>
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamuserstats.h
+	"isteamclient.h"
+	"isteamremotestorage.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamremotestorage.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamapps.h
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamnetworking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamscreenshots.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteammusic.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteammusicremote.h
+	"isteamclient.h"
+	"isteammusic.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamhttp.h
+	"isteamclient.h"
+	"steamhttpenums.h"
+
+1544534818 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\steamhttpenums.h
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamcontroller.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamugc.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamapplist.h
+	"isteamclient.h"
+	"steamtypes.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamhtmlsurface.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteaminventory.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamvideo.h
+	"isteamclient.h"
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\isteamparentalsettings.h
+
+1544534818 c:\users\milgra\desktop\kinetic\cortex\projects\steam\steam\steam_api_internal.h
+
+1544534639 source:c:\users\milgra\desktop\kinetic\cortex\projects\sdl_win\bridge.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<ShellApi.h>
+	"../../sources/bridge.h"
+	"GL/glew.h"
+
+1544534819 c:\users\milgra\desktop\kinetic\cortex\sources\bridge.h
+
+1544534817 source:c:\users\milgra\desktop\kinetic\cortex\projects\sdl_win\glew\glew.c
+	<GL/glew.h>
+	<GL/osmesa.h>
+	<GL/eglew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\sdl_win\gl\eglew.h
+	<sys/types.h>
+	<KHR/khrplatform.h>
+	<EGL/eglplatform.h>
+	<GL/glew.h>
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\sdl_win\gl\wglew.h
+	<windows.h>
+
+1544534817 c:\users\milgra\desktop\kinetic\cortex\projects\sdl_win\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+

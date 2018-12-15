@@ -1,0 +1,42 @@
+{
+    "appid": 998820,
+    "items": [
+    {
+        "itemdefid": 1,
+        "type": "item",
+        "name": "Small Donation",
+        "price_category": "1;VLV100",
+        "description": "Small Donation",
+        "name_color":  "7D6D00",
+        "background_color":  "3C352E",
+        "tradable": false,
+        "marketable": false,
+        "icon_url": "http://www.milgra.com/images/termite_icon.png"
+    },
+    {
+        "itemdefid": 2,
+        "type":  "item",
+        "name": "Medium Donation",
+        "price_category": "1;VLV200",
+        "description": "Medium Donation",
+        "name_color":  "7D6D00",
+        "background_color":  "3C352E",
+        "tradable": false,
+        "marketable": false,
+        "icon_url": "http://www.milgra.com/images/termite_icon.png"
+    },
+    {
+        "itemdefid": 3,
+        "type":  "item",
+        "name": "Normal Donation",
+        "price_category": "1;VLV300",
+        "description": "Normal Donation",
+        "name_color":  "7D6D00",
+        "background_color":  "3C352E",
+        "tradable": false,
+        "marketable": false,
+        "icon_url": "http://www.milgra.com/images/termite_icon.png"
+    }
+    ]
+}
+

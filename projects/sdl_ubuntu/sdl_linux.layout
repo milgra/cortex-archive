@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="../../framework/tools/floatbuffer.c" open="0" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../framework/tools/ogl.c" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../sdl_mixer/SDL_mixer.h" open="1" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="bridge.c" open="1" top="0" tabpos="1">
+		<Cursor position="134" topLine="0" />
+	</File>
+	<File name="../steam/CInventory.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../sources/excavator.c" open="1" top="0" tabpos="2">
+		<Cursor position="412" topLine="0" />
+	</File>
+	<File name="../../sources/main.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="447" topLine="24" />
+	</File>
+	<File name="../../sources/voxel.c" open="1" top="1" tabpos="5">
+		<Cursor position="3217" topLine="119" />
+	</File>
+</CodeBlocks_layout_file>

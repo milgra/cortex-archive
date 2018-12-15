@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game_tunnel" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_64_bit" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cortex" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_64_bit" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cortex" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_compiler_64_bit" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-mwindows" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-mwindows" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DSDL_MAIN_HANDLED=1" />
+			<Add option="-DWINDOWS=1" />
+			<Add option="-DSTEAM=1" />
+			<Add directory="../sdl/include" />
+			<Add directory="../sdl_win" />
+			<Add directory="../sdl_mixer" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lopengl32 -lglu32 -lSDL2 -lSDL2_mixer -lsteam_api64" />
+			<Add directory="libs" />
+		</Linker>
+		<ExtraCommands>
+			<Add after='cmd /c copy &quot;libs\*.*&quot; &quot;$(TARGET_OUTPUT_DIR)\&quot;' />
+			<Add after='cmd /c copy &quot;..\..\resources\*.*&quot; &quot;$(TARGET_OUTPUT_DIR)\&quot;' />
+		</ExtraCommands>
+		<Unit filename="../../framework/core/mtbmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtcstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtpipe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/core/mtvec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/floatbuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/math4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/ogl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/physics2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/pixeltext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../framework/tools/triangulate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/bridge.h" />
+		<Unit filename="../../sources/buffers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/defaults.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/excavator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/generator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/levels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/main.cpp" />
+		<Unit filename="../../sources/maincube.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/particle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/renderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/scene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/script.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/shaders/blend.fsh" />
+		<Unit filename="../../sources/shaders/blend.vsh" />
+		<Unit filename="../../sources/shaders/blend_es.fsh" />
+		<Unit filename="../../sources/shaders/blend_es.vsh" />
+		<Unit filename="../../sources/shaders/blur.fsh" />
+		<Unit filename="../../sources/shaders/blur.vsh" />
+		<Unit filename="../../sources/shaders/blur_es.fsh" />
+		<Unit filename="../../sources/shaders/blur_es.vsh" />
+		<Unit filename="../../sources/shaders/glow.fsh" />
+		<Unit filename="../../sources/shaders/glow.vsh" />
+		<Unit filename="../../sources/shaders/glow_es.fsh" />
+		<Unit filename="../../sources/shaders/glow_es.vsh" />
+		<Unit filename="../../sources/voxel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl/include/SDL.h" />
+		<Unit filename="../sdl/include/SDL_assert.h" />
+		<Unit filename="../sdl/include/SDL_atomic.h" />
+		<Unit filename="../sdl/include/SDL_audio.h" />
+		<Unit filename="../sdl/include/SDL_bits.h" />
+		<Unit filename="../sdl/include/SDL_blendmode.h" />
+		<Unit filename="../sdl/include/SDL_clipboard.h" />
+		<Unit filename="../sdl/include/SDL_config.h" />
+		<Unit filename="../sdl/include/SDL_config_android.h" />
+		<Unit filename="../sdl/include/SDL_config_iphoneos.h" />
+		<Unit filename="../sdl/include/SDL_config_macosx.h" />
+		<Unit filename="../sdl/include/SDL_config_minimal.h" />
+		<Unit filename="../sdl/include/SDL_config_os2.h" />
+		<Unit filename="../sdl/include/SDL_config_pandora.h" />
+		<Unit filename="../sdl/include/SDL_config_psp.h" />
+		<Unit filename="../sdl/include/SDL_config_windows.h" />
+		<Unit filename="../sdl/include/SDL_config_winrt.h" />
+		<Unit filename="../sdl/include/SDL_config_wiz.h" />
+		<Unit filename="../sdl/include/SDL_copying.h" />
+		<Unit filename="../sdl/include/SDL_cpuinfo.h" />
+		<Unit filename="../sdl/include/SDL_egl.h" />
+		<Unit filename="../sdl/include/SDL_endian.h" />
+		<Unit filename="../sdl/include/SDL_error.h" />
+		<Unit filename="../sdl/include/SDL_events.h" />
+		<Unit filename="../sdl/include/SDL_filesystem.h" />
+		<Unit filename="../sdl/include/SDL_gamecontroller.h" />
+		<Unit filename="../sdl/include/SDL_gesture.h" />
+		<Unit filename="../sdl/include/SDL_haptic.h" />
+		<Unit filename="../sdl/include/SDL_hints.h" />
+		<Unit filename="../sdl/include/SDL_joystick.h" />
+		<Unit filename="../sdl/include/SDL_keyboard.h" />
+		<Unit filename="../sdl/include/SDL_keycode.h" />
+		<Unit filename="../sdl/include/SDL_loadso.h" />
+		<Unit filename="../sdl/include/SDL_log.h" />
+		<Unit filename="../sdl/include/SDL_main.h" />
+		<Unit filename="../sdl/include/SDL_messagebox.h" />
+		<Unit filename="../sdl/include/SDL_mouse.h" />
+		<Unit filename="../sdl/include/SDL_mutex.h" />
+		<Unit filename="../sdl/include/SDL_name.h" />
+		<Unit filename="../sdl/include/SDL_opengl.h" />
+		<Unit filename="../sdl/include/SDL_opengl_glext.h" />
+		<Unit filename="../sdl/include/SDL_opengles.h" />
+		<Unit filename="../sdl/include/SDL_opengles2.h" />
+		<Unit filename="../sdl/include/SDL_opengles2_gl2.h" />
+		<Unit filename="../sdl/include/SDL_opengles2_gl2ext.h" />
+		<Unit filename="../sdl/include/SDL_opengles2_gl2platform.h" />
+		<Unit filename="../sdl/include/SDL_opengles2_khrplatform.h" />
+		<Unit filename="../sdl/include/SDL_pixels.h" />
+		<Unit filename="../sdl/include/SDL_platform.h" />
+		<Unit filename="../sdl/include/SDL_power.h" />
+		<Unit filename="../sdl/include/SDL_quit.h" />
+		<Unit filename="../sdl/include/SDL_rect.h" />
+		<Unit filename="../sdl/include/SDL_render.h" />
+		<Unit filename="../sdl/include/SDL_revision.h" />
+		<Unit filename="../sdl/include/SDL_rwops.h" />
+		<Unit filename="../sdl/include/SDL_scancode.h" />
+		<Unit filename="../sdl/include/SDL_sensor.h" />
+		<Unit filename="../sdl/include/SDL_shape.h" />
+		<Unit filename="../sdl/include/SDL_stdinc.h" />
+		<Unit filename="../sdl/include/SDL_surface.h" />
+		<Unit filename="../sdl/include/SDL_system.h" />
+		<Unit filename="../sdl/include/SDL_syswm.h" />
+		<Unit filename="../sdl/include/SDL_test.h" />
+		<Unit filename="../sdl/include/SDL_test_assert.h" />
+		<Unit filename="../sdl/include/SDL_test_common.h" />
+		<Unit filename="../sdl/include/SDL_test_compare.h" />
+		<Unit filename="../sdl/include/SDL_test_crc32.h" />
+		<Unit filename="../sdl/include/SDL_test_font.h" />
+		<Unit filename="../sdl/include/SDL_test_fuzzer.h" />
+		<Unit filename="../sdl/include/SDL_test_harness.h" />
+		<Unit filename="../sdl/include/SDL_test_images.h" />
+		<Unit filename="../sdl/include/SDL_test_log.h" />
+		<Unit filename="../sdl/include/SDL_test_md5.h" />
+		<Unit filename="../sdl/include/SDL_test_memory.h" />
+		<Unit filename="../sdl/include/SDL_test_random.h" />
+		<Unit filename="../sdl/include/SDL_thread.h" />
+		<Unit filename="../sdl/include/SDL_timer.h" />
+		<Unit filename="../sdl/include/SDL_touch.h" />
+		<Unit filename="../sdl/include/SDL_types.h" />
+		<Unit filename="../sdl/include/SDL_version.h" />
+		<Unit filename="../sdl/include/SDL_video.h" />
+		<Unit filename="../sdl/include/SDL_vulkan.h" />
+		<Unit filename="../sdl/include/begin_code.h" />
+		<Unit filename="../sdl/include/close_code.h" />
+		<Unit filename="../sdl_mixer/SDL_mixer.h" />
+		<Unit filename="../steam/CInventory.cpp" />
+		<Unit filename="../steam/CInventory.hpp" />
+		<Unit filename="bridge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glew/glew.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
