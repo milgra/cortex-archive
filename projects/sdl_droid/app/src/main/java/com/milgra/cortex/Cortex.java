@@ -30,7 +30,7 @@ public class Cortex extends SDLActivity implements PurchasesUpdatedListener {
     private BillingClient mBillingClient;
 
     private String itemIds[];
-    private static Cortex statictermite;
+    private static Cortex staticcortex;
 
     private native void storeitem(int index , String name);
     private native void showdonate( );
@@ -45,7 +45,7 @@ public class Cortex extends SDLActivity implements PurchasesUpdatedListener {
         // init billing client
         Log.i( "CORTEX", "CORTEX construct" );
 
-        statictermite = this;
+        staticcortex = this;
 
         itemIds = new String[3];
 
@@ -159,7 +159,7 @@ public class Cortex extends SDLActivity implements PurchasesUpdatedListener {
     public static void buyItem( int index )
     {
 
-        statictermite.buyItemInst( index );
+        staticcortex.buyItemInst( index );
 
     }
 
@@ -182,7 +182,7 @@ public class Cortex extends SDLActivity implements PurchasesUpdatedListener {
 
     public static void openURL( String url )
     {
-        statictermite.openURLInst( url );
+        staticcortex.openURLInst( url );
     }
 
 

@@ -10,26 +10,9 @@ JNIEnv* javaEnv = NULL;
 
 void bridge_init( )
 {
-    __android_log_print(ANDROID_LOG_INFO, "TERMITE", "bridge_init" );
+    __android_log_print(ANDROID_LOG_INFO, "CORTEX", "bridge_init" );
 
     defaults.text_scale = 1.4;
-
-//    JNIEnv* env = Android_JNI_GetEnv( );
-//    // Make sure thread is attached to JVM/env
-//
-//    jstring jstr = (*env)->NewStringUTF(env, "This string comes from JNI");
-//    // First get the class that contains the method you need to call
-//    jclass clazz = (*env)->FindClass(env,"com/milgra/termite/Cortex");
-//    // Get the method that you want to call
-//    jmethodID messageMe = (*env)->GetMethodID(env,clazz, "messageMe", "(Ljava/lang/String;)V");
-//    // Call the method on the object
-//    jobject result = (*env)->CallObjectMethod(env,jstr, messageMe);
-//    // Get a C-style string
-//    const char* str = (*env)->GetStringUTFChars(env,(jstring) result, NULL);
-//    printf("%s\n", str);
-//    // Clean up
-//
-//    (*env)->ReleaseStringUTFChars(env,jstr, str);
 
 }
 
@@ -80,7 +63,7 @@ void bridge_buy( char* item )
 }
 
 
-JNIEXPORT jstring JNICALL Java_com_milgra_termite_Termite_storeitem(
+JNIEXPORT jstring JNICALL Java_com_milgra_cortex_Cortex_storeitem(
         JNIEnv* env,
         jobject cls,
         jint index,
@@ -97,7 +80,7 @@ JNIEXPORT jstring JNICALL Java_com_milgra_termite_Termite_storeitem(
     strcpy( defaults.prices[ index ], utfname );
 }
 
-JNIEXPORT jstring JNICALL Java_com_milgra_termite_Termite_showdonate(
+JNIEXPORT jstring JNICALL Java_com_milgra_cortex_Cortex_showdonate(
         JNIEnv* env,
         jobject cls,
         jint index,

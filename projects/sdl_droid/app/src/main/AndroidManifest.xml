@@ -4,8 +4,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.milgra.flow"
-    android:versionCode="4"
-    android:versionName="3.00"
+    android:versionCode="5"
+    android:versionName="3.01"
     android:installLocation="auto">
 
     <!-- OpenGL ES 2.0 -->
