@@ -423,10 +423,6 @@
         SDL_free( respath );
         #endif
 
-        #ifdef OSX
-        main_onmessage( ( char* ) "FULLSCREEN" , NULL );  // workaround for SDL2 bug
-        #endif
-
     }
 
 
