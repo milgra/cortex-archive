@@ -40,7 +40,7 @@
         
         float text_scale;
 		
-  		char items_arrived;		// purchased items arrived from the store
+  		char donation_arrived;		// purchased items arrived from the store
         char prices_arrived;	// prices arrived for store items
         char prices[ 3 ][ 100 ];
 

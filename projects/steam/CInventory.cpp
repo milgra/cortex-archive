@@ -190,7 +190,7 @@ void CInventory::OnItemsReceived( SteamInventoryResultReady_t* callback )
 							detail.m_iDefinition ,
 							detail.m_unQuantity  );
 
-					defaults.items_arrived = 1;
+					defaults.donation_arrived = 1;
 					
 					// SteamInventory()->ConsumeItem( NULL , detail.m_itemId , detail.m_unQuantity );
 

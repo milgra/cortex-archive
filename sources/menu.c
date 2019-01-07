@@ -426,7 +426,7 @@
 
 					char* label = "TO PLAY INSANE PLEASE DONATE HERE";
 					
-					if ( defaults.items_arrived > 0 )
+					if ( defaults.donation_arrived > 0 )
 					{
 						label = "PLEASE DONATE IF YOU LIKE THE GAME";
 					}
@@ -528,10 +528,6 @@
 			
 			menu_label( "RESET", 0xFFFFFF88, 8.0, 640.0 , 250.0 , -600.0, menu.glowbuffer );
 
-			char version[20];
-			snprintf( version , 20 , "%s D%i" , CORTEX_VERSION , defaults.items_arrived );
-			menu_label( version , 0xFFFFFF88, 5.0, 570.0 , 2.0 , -600.0, menu.glowbuffer );
-
 			// effects
 
 			cube = ( voxel_t )
@@ -625,7 +621,7 @@
 					else if ( index == 1 ) mtbus_notify( "MNU" , "LEVELB" , NULL );
 					else if ( index == 2 )
 					{
-						if ( defaults.items_arrived == 0 )
+						if ( defaults.donation_arrived == 0 )
 						{
 							menu.state = MENU_STATE_SHOWPRICES;
 							menu_redraw( );
