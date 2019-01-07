@@ -34,6 +34,7 @@ public:
 
     void GetPrices( void (*onprices)(void) );
     void BuyItem( char* name );
+    void GetItems( void );
 
     STEAM_CALLBACK( CInventory, OnItemsReceived, SteamInventoryResultReady_t,
         m_CallbackItemsReceived );

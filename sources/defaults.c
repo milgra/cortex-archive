@@ -13,6 +13,8 @@
     #define kStateMenu 0
     #define kStateGame 1
 
+    #define CORTEX_VERSION "V1.01"
+
 
     typedef struct _defaults_t
     {
@@ -37,8 +39,9 @@
 		v2_t display_size;
         
         float text_scale;
-  
-        char prices_arrived;
+		
+  		char items_arrived;		// purchased items arrived from the store
+        char prices_arrived;	// prices arrived for store items
         char prices[ 3 ][ 100 ];
 
     } defaults_t;

@@ -397,7 +397,7 @@
 
 			voxel_collect_points( &cube , menu.buffer );    // insane
 			menu.buttons[2] = cube;
-
+			
 			menu_label(
 				"INSANE" ,
 				0xFFFFFF88 ,
@@ -422,10 +422,17 @@
 					};
 
 					voxel_collect_points( &cube , menu.buffer );
-					menu.buttons[11] = cube;
+					menu.buttons[ 11 ] = cube;
+
+					char* label = "TO PLAY INSANE PLEASE DONATE HERE";
+					
+					if ( defaults.items_arrived > 0 )
+					{
+						label = "PLEASE DONATE IF YOU LIKE THE GAME";
+					}
 
 					menu_label(
-						"PLEASE DONATE IF YOU LIKE THE GAME" ,
+						label ,
 						0xFFFFFF88 ,
 						10.0 ,
 						160.0 ,
@@ -493,7 +500,7 @@
 						menu.glowbuffer );
 
 				}
-
+				
 			}
 			else
 			{
@@ -518,8 +525,12 @@
 
 			voxel_collect_points( &cube , menu.buffer );    // reset state
 			menu.buttons[3] = cube;
-
+			
 			menu_label( "RESET", 0xFFFFFF88, 8.0, 640.0 , 250.0 , -600.0, menu.glowbuffer );
+
+			char version[20];
+			snprintf( version , 20 , "%s D%i" , CORTEX_VERSION , defaults.items_arrived );
+			menu_label( version , 0xFFFFFF88, 5.0, 570.0 , 2.0 , -600.0, menu.glowbuffer );
 
 			// effects
 
@@ -612,8 +623,20 @@
 				
 					if 		( index == 0 ) mtbus_notify( "MNU" , "LEVELA" , NULL );
 					else if ( index == 1 ) mtbus_notify( "MNU" , "LEVELB" , NULL );
-					else if ( index == 2 ) mtbus_notify( "MNU" , "LEVELC" , NULL );
-					else if ( index == 3 ) mtbus_notify( "MNU" , "RESETGAME" , NULL );
+					else if ( index == 2 )
+					{
+						if ( defaults.items_arrived == 0 )
+						{
+							menu.state = MENU_STATE_SHOWPRICES;
+							menu_redraw( );
+						}
+						else mtbus_notify( "MNU" , "LEVELC" , NULL );
+					}
+					else if ( index == 3 )
+					{
+						menu.state = MENU_STATE_DEFAULT;
+						mtbus_notify( "MNU" , "RESETGAME" , NULL );
+					}
 					else if ( index == 4 ) mtbus_notify( "MNU" , "EFFECTS" , NULL );
 					else if ( index == 5 ) mtbus_notify( "MNU" , "FULLSCREEN" , NULL );
 					else if ( index == 6 ) mtbus_notify( "MNU" , "HOMEPAGE" , NULL );
@@ -648,8 +671,6 @@
 							menu_redraw( );
 						}
 					}
-
-					break;
 
 				}
 				
