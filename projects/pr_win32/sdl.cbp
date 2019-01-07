@@ -37,7 +37,7 @@
 			<Add option="-DWINDOWS=1" />
 			<Add option="-DSTEAM=1" />
 			<Add directory="../sdl/include" />
-			<Add directory="../sdl_win" />
+			<Add directory="../pr_win32" />
 			<Add directory="../sdl_mixer" />
 		</Compiler>
 		<Linker>
