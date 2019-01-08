@@ -64,3 +64,5 @@ iOSInjectionProject/
 /projects/pr_android/.gradle
 /projects/pr_android/.idea
 /projects/pr_android/pr_android.iml
+/projects/pr_android/app/.externalNativeBuild
+/projects/pr_android/app/app.iml
