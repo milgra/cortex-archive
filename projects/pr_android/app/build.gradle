@@ -15,8 +15,8 @@ android {
         }
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 5
-        versionName "3.01"
+        versionCode 6
+        versionName "3.02"
         externalNativeBuild {
             ndkBuild {
                 arguments "APP_PLATFORM=android-14"
@@ -24,15 +24,7 @@ android {
             }
         }
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            debuggable false
-            jniDebuggable false
-            signingConfig signingConfigs.release
-        }
-    }
+
     if (!project.hasProperty('EXCLUDE_NATIVE_LIBS')) {
         sourceSets.main {
             jni.srcDirs = []
