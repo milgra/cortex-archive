@@ -77,6 +77,11 @@
             	"initialized" ,
             	1 );
 
+            settings_setint(
+            	"donation_arrived" ,
+            	0 );
+
+            defaults.donation_arrived = 0;
             defaults.effects_level = 2;
 
             #ifdef RASPBERRY
@@ -112,6 +117,7 @@
         {
 
             defaults.effects_level = settings_getint( "effects_level" );
+            defaults.donation_arrived = settings_getint( "donation_arrived" );
 
         }
 
@@ -205,6 +211,10 @@
         settings_setint(
         	"effects_level" ,
         	defaults.effects_level );
+
+        settings_setint(
+        	"donation_arrived" ,
+        	defaults.donation_arrived );
 
     }
 

@@ -185,6 +185,10 @@
                 
             case SKPaymentTransactionStatePurchased :
             {
+			
+				defaults.donation_arrived = 1;
+				defaults_save( );
+				
                 result = @"Thank you for your donation!";
                 UIAlertController* alert =
                     [ UIAlertController
