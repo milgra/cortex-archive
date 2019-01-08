@@ -689,7 +689,7 @@
 
             }
 
-            #if defined(IOS) && defined(ANDROID)
+            #if defined(IOS) || defined(ANDROID)
             width = displaymode.w;
             height = displaymode.h;
             #endif

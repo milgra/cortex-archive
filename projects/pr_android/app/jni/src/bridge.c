@@ -92,3 +92,18 @@ JNIEXPORT jstring JNICALL Java_com_milgra_cortex_Cortex_showdonate(
 
     //mtbus_notify( "CTL", "SHOWDONATION" , NULL );
 }
+
+JNIEXPORT jstring JNICALL Java_com_milgra_cortex_Cortex_storedonation(
+        JNIEnv* env,
+        jobject cls )
+{
+
+    javaEnv = env;
+    (*env)->GetJavaVM( javaEnv , &javaVM );
+
+    __android_log_print(ANDROID_LOG_INFO, "CORTEX", "storedonation" );
+
+    defaults.donation_arrived = 1;
+    defaults_save( );
+
+}
