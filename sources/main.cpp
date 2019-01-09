@@ -704,6 +704,9 @@
 				height ,
 				SDL_WINDOW_OPENGL |
 				SDL_WINDOW_SHOWN |
+				#ifdef RASPBERRY
+				SDL_WINDOW_RESIZABLE |
+				#endif
 				#if defined(IOS) || defined(ANDROID)
 				SDL_WINDOW_ALLOW_HIGHDPI |
 				SDL_WINDOW_FULLSCREEN_DESKTOP );

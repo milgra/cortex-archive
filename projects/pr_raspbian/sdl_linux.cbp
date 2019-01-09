@@ -49,6 +49,7 @@
 			<Add before="pwd" />
 			<Add before="echo $(TARGET_OUTPUT_DIR)" />
 			<Add after="cp lib/*.* $(TARGET_OUTPUT_DIR)" />
+			<Add after="cp ../../resources/*.* $(TARGET_OUTPUT_DIR)" />
 		</ExtraCommands>
 		<Unit filename="../../framework/core/mtbmp.c">
 			<Option compilerVar="CC" />
