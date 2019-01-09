@@ -9,7 +9,7 @@ void bridge_init( void )
 
 }
 
-void bridge_kill( void )
+void bridge_free( void )
 {
 
 

@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="termite" />
+		<Option title="cortex" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/termite" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/cortex" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/termite" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/cortex" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,6 +34,7 @@
 			<Add option="-DLINUX=1" />
 			<Add option="-DRASPBERRY=1" />
 			<Add directory="../sdl/include" />
+			<Add directory="../sdl_mixer" />
 		</Compiler>
 		<Linker>
 			<Add option="-lSDL2" />
@@ -42,7 +43,7 @@
 			<Add option="-lEGL" />
 			<Add option="-lglut" />
 			<Add option="-Wl,-rpath=\$$$ORIGIN" />
-			<Add directory="/usr/lib/arm-linux-gnueabihf/" />
+			<Add directory="../pr_rasbian/lib" />
 		</Linker>
 		<ExtraCommands>
 			<Add before="pwd" />
@@ -76,6 +77,9 @@
 		<Unit filename="../../framework/core/mtvec.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../../framework/tools/cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../../framework/tools/floatbuffer.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -106,29 +110,29 @@
 		<Unit filename="../../framework/tools/triangulate.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../sources/ant.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="../../sources/bridge.h" />
-		<Unit filename="../../sources/control.c">
+		<Unit filename="../../sources/buffers.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../sources/defaults.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../sources/food.c">
+		<Unit filename="../../sources/excavator.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../sources/grid.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="../../sources/grid2d.c">
+		<Unit filename="../../sources/generator.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../sources/levels.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../sources/main.cpp" />
+		<Unit filename="../../sources/maincube.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../sources/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../../sources/particle.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -138,13 +142,22 @@
 		<Unit filename="../../sources/scene.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../sources/ui.c">
+		<Unit filename="../../sources/script.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../../sources/shaders/blend.fsh" />
+		<Unit filename="../../sources/shaders/blend.vsh" />
+		<Unit filename="../../sources/shaders/blend_es.fsh" />
+		<Unit filename="../../sources/shaders/blend_es.vsh" />
+		<Unit filename="../../sources/shaders/blur.fsh" />
+		<Unit filename="../../sources/shaders/blur.vsh" />
+		<Unit filename="../../sources/shaders/blur_es.fsh" />
+		<Unit filename="../../sources/shaders/blur_es.vsh" />
+		<Unit filename="../../sources/shaders/glow.fsh" />
+		<Unit filename="../../sources/shaders/glow.vsh" />
+		<Unit filename="../../sources/shaders/glow_es.fsh" />
+		<Unit filename="../../sources/shaders/glow_es.vsh" />
 		<Unit filename="../../sources/voxel.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="../../sources/voxelutil.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../sdl/include/SDL.h" />
@@ -231,6 +244,96 @@
 		<Unit filename="../sdl/include/SDL_vulkan.h" />
 		<Unit filename="../sdl/include/begin_code.h" />
 		<Unit filename="../sdl/include/close_code.h" />
+		<Unit filename="../sdl_mixer/SDL_mixer.h" />
+		<Unit filename="../sdl_mixer/effect_position.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/effect_stereoreverse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/effects_internal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/effects_internal.h" />
+		<Unit filename="../sdl_mixer/load_aiff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/load_aiff.h" />
+		<Unit filename="../sdl_mixer/load_voc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/load_voc.h" />
+		<Unit filename="../sdl_mixer/mixer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/mixer.h" />
+		<Unit filename="../sdl_mixer/music.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music.h" />
+		<Unit filename="../sdl_mixer/music_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_cmd.h" />
+		<Unit filename="../sdl_mixer/music_flac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_flac.h" />
+		<Unit filename="../sdl_mixer/music_fluidsynth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_fluidsynth.h" />
+		<Unit filename="../sdl_mixer/music_mad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_mad.h" />
+		<Unit filename="../sdl_mixer/music_mikmod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_mikmod.h" />
+		<Unit filename="../sdl_mixer/music_modplug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_modplug.h" />
+		<Unit filename="../sdl_mixer/music_mpg123.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_mpg123.h" />
+		<Unit filename="../sdl_mixer/music_nativemidi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_nativemidi.h" />
+		<Unit filename="../sdl_mixer/music_ogg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_ogg.h" />
+		<Unit filename="../sdl_mixer/music_opus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_opus.h" />
+		<Unit filename="../sdl_mixer/music_timidity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_timidity.h" />
+		<Unit filename="../sdl_mixer/music_wav.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/music_wav.h" />
+		<Unit filename="../sdl_mixer/native_midi/native_midi.h" />
+		<Unit filename="../sdl_mixer/native_midi/native_midi_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/native_midi/native_midi_common.h" />
+		<Unit filename="../sdl_mixer/native_midi/native_midi_haiku.cpp" />
+		<Unit filename="../sdl_mixer/native_midi/native_midi_mac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/native_midi/native_midi_macosx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sdl_mixer/native_midi/native_midi_win32.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="bridge.c">
 			<Option compilerVar="CC" />
 		</Unit>

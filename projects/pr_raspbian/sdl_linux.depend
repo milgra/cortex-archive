@@ -2382,3 +2382,1326 @@
 	<stdlib.h>
 	"../../sources/bridge.h"
 
+1547026671 source:/home/pi/Desktop/cortex/framework/core/mtbmp.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"../core/mtmem.c"
+
+1547026671 /home/pi/Desktop/cortex/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/core/mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1547026671 /home/pi/Desktop/cortex/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1547026671 /home/pi/Desktop/cortex/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1547026671 source:/home/pi/Desktop/cortex/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1547026671 /home/pi/Desktop/cortex/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1547026671 /home/pi/Desktop/cortex/framework/core/mtcstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdarg.h>
+	"mtmem.c"
+	<string.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/core/mtmap.c
+	<stdio.h>
+	<stdlib.h>
+	"mtvec.c"
+	"mtmem.c"
+	<string.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/core/mtmem.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/core/mtpipe.c
+	<time.h>
+	<stdio.h>
+	<assert.h>
+	<pthread.h>
+	"mtmem.c"
+
+1547026671 source:/home/pi/Desktop/cortex/framework/core/mtstr.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"mtvec.c"
+	"mtmap.c"
+	"mtmem.c"
+	<string.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/core/mtvec.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"mtmem.c"
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1547026671 /home/pi/Desktop/cortex/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1547026671 /home/pi/Desktop/cortex/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1547026671 /home/pi/Desktop/cortex/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/math1.c
+	<stdio.h>
+	<math.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/math2.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../core/mtvec.c"
+	<assert.h>
+	<float.h>
+	"../core/mtmem.c"
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/math3.c
+	<stdio.h>
+	<math.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/math4.c
+	<stdio.h>
+	<stdlib.h>
+	"math3.c"
+	<math.h>
+	<float.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/physics2.c
+	<stdio.h>
+	<math.h>
+	"math2.c"
+	"../core/mtvec.c"
+	<float.h>
+	"../core/mtmem.c"
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1547026671 /home/pi/Desktop/cortex/framework/core/mtfile.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	"mtmap.c"
+	"mtstr.c"
+	"mtmem.c"
+	"mtcstr.c"
+	<string.h>
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/triangulate.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"../core/mtmem.c"
+	"math2.c"
+
+1547026701 source:/home/pi/Desktop/cortex/sources/defaults.c
+	<stdlib.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1547026671 /home/pi/Desktop/cortex/framework/tools/settings.c
+	"../core/mtfile.c"
+	"../core/mtmap.c"
+	"../core/mtstr.c"
+	"../core/mtmem.c"
+	"../core/mtcstr.c"
+
+1547026701 source:/home/pi/Desktop/cortex/sources/levels.c
+
+1547026701 source:/home/pi/Desktop/cortex/sources/particle.c
+	<stdio.h>
+	"voxel.c"
+
+1547026701 /home/pi/Desktop/cortex/sources/voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1547026671 /home/pi/Desktop/cortex/framework/tools/ogl.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+
+1547026671 /home/pi/Desktop/cortex/framework/tools/floatbuffer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../core/mtmem.c"
+	"../tools/math2.c"
+	"../tools/math3.c"
+	"../tools/math4.c"
+
+1547026701 source:/home/pi/Desktop/cortex/sources/renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/floatbuffer.c"
+	"defaults.c"
+	<stdint.h>
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1547026701 /home/pi/Desktop/cortex/sources/defaults.c
+	<stdlib.h>
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/settings.c"
+
+1547026671 /home/pi/Desktop/cortex/framework/core/mtbus.c
+	<stdio.h>
+	"mtmap.c"
+	"mtvec.c"
+	"mtmem.c"
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/glow_es.vsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/glow_es.fsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/blur_es.vsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/blur_es.fsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/blend_es.vsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/blend_es.fsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/glow.vsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/glow.fsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/blur.vsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/blur.fsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/blend.vsh
+
+1547026701 /home/pi/Desktop/cortex/sources/shaders/blend.fsh
+
+1547026701 source:/home/pi/Desktop/cortex/sources/scene.c
+	<stdio.h>
+	"voxel.c"
+	"buffers.c"
+	"generator.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/pixeltext.c"
+	"SDL.h"
+	"script.c"
+	"levels.c"
+	"particle.c"
+	"maincube.c"
+	"renderer.c"
+	"excavator.c"
+	"defaults.c"
+
+1547026701 /home/pi/Desktop/cortex/sources/buffers.c
+	"renderer.c"
+	"../framework/tools/floatbuffer.c"
+	"../framework/core/mtbus.c"
+
+1547026701 /home/pi/Desktop/cortex/sources/renderer.c
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glew.h"
+	"../framework/core/mtvec.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/floatbuffer.c"
+	"defaults.c"
+	<stdint.h>
+	<float.h>
+	"voxel.c"
+	"defaults.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+	"shaders/glow_es.vsh"
+	"shaders/glow_es.fsh"
+	"shaders/blur_es.vsh"
+	"shaders/blur_es.fsh"
+	"shaders/blend_es.vsh"
+	"shaders/blend_es.fsh"
+	"shaders/glow.vsh"
+	"shaders/glow.fsh"
+	"shaders/blur.vsh"
+	"shaders/blur.fsh"
+	"shaders/blend.vsh"
+	"shaders/blend.fsh"
+
+1547026701 /home/pi/Desktop/cortex/sources/generator.c
+	<stdio.h>
+	"voxel.c"
+	"excavator.c"
+	"generator.c"
+	<string.h>
+
+1547026701 /home/pi/Desktop/cortex/sources/excavator.c
+	<math.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"excavator.c"
+	<string.h>
+
+1547026671 /home/pi/Desktop/cortex/framework/tools/pixeltext.c
+	<stdio.h>
+	"../core/mtvec.c"
+	"math2.c"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/begin_code.h
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/close_code.h
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_config_windows.h
+	"SDL_platform.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_config_iphoneos.h
+	"SDL_platform.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_config_psp.h
+	"SDL_platform.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_config_os2.h
+	"SDL_platform.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_config_minimal.h
+	"SDL_platform.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026671 /home/pi/Desktop/cortex/projects/sdl/include/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026701 /home/pi/Desktop/cortex/sources/script.c
+	"../framework/core/mtvec.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"generator.c"
+	"maincube.c"
+
+1547026701 /home/pi/Desktop/cortex/sources/maincube.c
+	"voxel.c"
+	"../framework/tools/math3.c"
+
+1547026701 /home/pi/Desktop/cortex/sources/levels.c
+
+1547026701 /home/pi/Desktop/cortex/sources/particle.c
+	<stdio.h>
+	"voxel.c"
+
+1547026701 source:/home/pi/Desktop/cortex/sources/voxel.c
+	"../framework/tools/math2.c"
+	"../framework/tools/math3.c"
+	"../framework/tools/math4.c"
+	"../framework/tools/ogl.c"
+	"../framework/tools/floatbuffer.c"
+
+1547026671 source:/home/pi/Desktop/cortex/projects/pr_raspbian/bridge.c
+	<stdio.h>
+	<stdlib.h>
+	"../../sources/bridge.h"
+
+1547026701 /home/pi/Desktop/cortex/sources/bridge.h
+
+1547026701 source:/home/pi/Desktop/cortex/sources/main.cpp
+	"../projects/steam/CInventory.hpp"
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+	"SDL.h"
+	"SDL_mixer.h"
+	"menu.c"
+	"scene.c"
+	"bridge.h"
+	"renderer.c"
+	"defaults.c"
+	"../framework/tools/cmd.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/settings.c"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/CInventory.hpp
+	<stdio.h>
+	"steam/steam_api.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/steam_api.h
+	"isteamclient.h"
+	"isteamuser.h"
+	"isteamfriends.h"
+	"isteamutils.h"
+	"isteammatchmaking.h"
+	"isteamuserstats.h"
+	"isteamapps.h"
+	"isteamnetworking.h"
+	"isteamremotestorage.h"
+	"isteamscreenshots.h"
+	"isteammusic.h"
+	"isteammusicremote.h"
+	"isteamhttp.h"
+	"isteamcontroller.h"
+	"isteamugc.h"
+	"isteamapplist.h"
+	"isteamhtmlsurface.h"
+	"isteaminventory.h"
+	"isteamvideo.h"
+	"isteamparentalsettings.h"
+	"steam_api_internal.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamclient.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/steamtypes.h
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/steamclientpublic.h
+	"steamtypes.h"
+	"steamuniverse.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/steamuniverse.h
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamuser.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamfriends.h
+	"isteamclient.h"
+	"steamclientpublic.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamutils.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteammatchmaking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+	"matchmakingtypes.h"
+	"isteamclient.h"
+	"isteamfriends.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/matchmakingtypes.h
+	<stdio.h>
+	<string.h>
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamuserstats.h
+	"isteamclient.h"
+	"isteamremotestorage.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamremotestorage.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamapps.h
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamnetworking.h
+	"steamtypes.h"
+	"steamclientpublic.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamscreenshots.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteammusic.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteammusicremote.h
+	"isteamclient.h"
+	"isteammusic.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamhttp.h
+	"isteamclient.h"
+	"steamhttpenums.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/steamhttpenums.h
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamcontroller.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamugc.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamapplist.h
+	"isteamclient.h"
+	"steamtypes.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamhtmlsurface.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteaminventory.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamvideo.h
+	"isteamclient.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/isteamparentalsettings.h
+
+1547026672 /home/pi/Desktop/cortex/projects/steam/steam/steam_api_internal.h
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/SDL_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547026701 /home/pi/Desktop/cortex/sources/menu.c
+	<stdio.h>
+	"voxel.c"
+	"scene.c"
+	"../framework/core/mtmem.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/pixeltext.c"
+	"../framework/tools/settings.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	<float.h>
+	"defaults.c"
+	"renderer.c"
+	"../framework/core/mtbus.c"
+
+1547026701 /home/pi/Desktop/cortex/sources/scene.c
+	<stdio.h>
+	"voxel.c"
+	"buffers.c"
+	"generator.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"../framework/core/mtcstr.c"
+	"../framework/tools/pixeltext.c"
+	"SDL.h"
+	"script.c"
+	"levels.c"
+	"particle.c"
+	"maincube.c"
+	"renderer.c"
+	"excavator.c"
+	"defaults.c"
+
+1547026671 /home/pi/Desktop/cortex/framework/tools/cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1547026671 source:/home/pi/Desktop/cortex/framework/tools/cmd.c
+	<stdio.h>
+	"../core/mtvec.c"
+	<string.h>
+	"../core/mtmem.c"
+	"../core/mtstr.c"
+	"../core/mtcstr.c"
+
+1547026701 source:/home/pi/Desktop/cortex/sources/buffers.c
+	"renderer.c"
+	"../framework/tools/floatbuffer.c"
+	"../framework/core/mtbus.c"
+
+1547026701 source:/home/pi/Desktop/cortex/sources/excavator.c
+	<math.h>
+	"../framework/core/mtmem.c"
+	"../framework/core/mtstr.c"
+	"excavator.c"
+	<string.h>
+
+1547026701 source:/home/pi/Desktop/cortex/sources/generator.c
+	<stdio.h>
+	"voxel.c"
+	"excavator.c"
+	"generator.c"
+	<string.h>
+
+1547026701 source:/home/pi/Desktop/cortex/sources/maincube.c
+	"voxel.c"
+	"../framework/tools/math3.c"
+
+1547026701 source:/home/pi/Desktop/cortex/sources/menu.c
+	<stdio.h>
+	"voxel.c"
+	"scene.c"
+	"../framework/core/mtmem.c"
+	"../framework/core/mtvec.c"
+	"../framework/tools/pixeltext.c"
+	"../framework/tools/settings.c"
+	"../framework/tools/floatbuffer.c"
+	<string.h>
+	<float.h>
+	"defaults.c"
+	"renderer.c"
+	"../framework/core/mtbus.c"
+
+1547026701 source:/home/pi/Desktop/cortex/sources/script.c
+	"../framework/core/mtvec.c"
+	"../framework/core/mtstr.c"
+	"../framework/core/mtbus.c"
+	"generator.c"
+	"maincube.c"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/effect_position.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_mixer.h"
+	"mixer.h"
+	"effects_internal.h"
+	<sys/time.h>
+	<unistd.h>
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/mixer.h
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/effects_internal.h
+	"SDL_mixer.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/effect_stereoreverse.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL.h"
+	"SDL_mixer.h"
+	"effects_internal.h"
+	<sys/time.h>
+	<unistd.h>
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/effects_internal.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL_mixer.h"
+	"effects_internal.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/load_aiff.c
+	"SDL_endian.h"
+	"SDL_mixer.h"
+	"load_aiff.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/load_aiff.h
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/load_voc.c
+	"SDL_mixer.h"
+	"load_voc.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/load_voc.h
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/mixer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SDL.h"
+	"SDL_mixer.h"
+	"mixer.h"
+	"music.h"
+	"load_aiff.h"
+	"load_voc.h"
+	"effects_internal.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music.h
+	"SDL_mixer.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music.c
+	<string.h>
+	"SDL_hints.h"
+	"SDL_log.h"
+	"SDL_timer.h"
+	"SDL_mixer.h"
+	"mixer.h"
+	"music.h"
+	"music_cmd.h"
+	"music_wav.h"
+	"music_mikmod.h"
+	"music_modplug.h"
+	"music_nativemidi.h"
+	"music_fluidsynth.h"
+	"music_timidity.h"
+	"music_ogg.h"
+	"music_opus.h"
+	"music_mpg123.h"
+	"music_mad.h"
+	"music_flac.h"
+	"native_midi/native_midi.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_cmd.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_wav.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_mikmod.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_modplug.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_nativemidi.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_fluidsynth.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_timidity.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_ogg.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_opus.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_mpg123.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_mad.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/music_flac.h
+	"music.h"
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/native_midi/native_midi.h
+	"SDL_rwops.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_cmd.c
+	"SDL_config.h"
+	<sys/types.h>
+	<sys/wait.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<signal.h>
+	<ctype.h>
+	<limits.h>
+	<linux/limits.h>
+	"music_cmd.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_flac.c
+	"SDL_assert.h"
+	"SDL_loadso.h"
+	"music_flac.h"
+	<FLAC/stream_decoder.h>
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_fluidsynth.c
+	<stdio.h>
+	"SDL_loadso.h"
+	"music_fluidsynth.h"
+	<fluidsynth.h>
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_mad.c
+	"music_mad.h"
+	"mad.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_mikmod.c
+	"SDL_loadso.h"
+	"music_mikmod.h"
+	"mikmod.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_modplug.c
+	"SDL_loadso.h"
+	"music_modplug.h"
+	<libmodplug/modplug.h>
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_mpg123.c
+	<stdio.h>
+	"SDL_assert.h"
+	"SDL_loadso.h"
+	"music_mpg123.h"
+	<mpg123.h>
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_nativemidi.c
+	"music_nativemidi.h"
+	"native_midi/native_midi.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_ogg.c
+	"SDL_loadso.h"
+	"music_ogg.h"
+	<tremor/ivorbisfile.h>
+	<vorbis/vorbisfile.h>
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_opus.c
+	"SDL_loadso.h"
+	"music_opus.h"
+	<opus/opusfile.h>
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_timidity.c
+	"music_timidity.h"
+	"timidity/timidity.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/music_wav.c
+	"music_wav.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/native_midi/native_midi_common.c
+	"native_midi_common.h"
+	"../SDL_mixer.h"
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+
+1547026672 /home/pi/Desktop/cortex/projects/sdl_mixer/native_midi/native_midi_common.h
+	"SDL.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/native_midi/native_midi_haiku.cpp
+	"SDL_config.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<MidiStore.h>
+	<MidiDefs.h>
+	<MidiSynthFile.h>
+	<algorithm>
+	<assert.h>
+	"native_midi.h"
+	"native_midi_common.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/native_midi/native_midi_mac.c
+	"SDL_config.h"
+	"SDL_endian.h"
+	"../mixer.h"
+	"native_midi.h"
+	"native_midi_common.h"
+	<QuickTime/QuickTimeMusic.h>
+	<QuickTimeMusic.h>
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/native_midi/native_midi_macosx.c
+	"SDL_config.h"
+	<CoreServices/CoreServices.h>
+	<AudioUnit/AudioUnit.h>
+	<AudioToolbox/AudioToolbox.h>
+	<AvailabilityMacros.h>
+	"SDL_endian.h"
+	"../SDL_mixer.h"
+	"../mixer.h"
+	"native_midi.h"
+
+1547026672 source:/home/pi/Desktop/cortex/projects/sdl_mixer/native_midi/native_midi_win32.c
+	"SDL_config.h"
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"native_midi.h"
+	"native_midi_common.h"
+
