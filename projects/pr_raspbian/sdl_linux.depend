@@ -3211,10 +3211,11 @@
 	"../framework/tools/ogl.c"
 	"../framework/tools/floatbuffer.c"
 
-1547026671 source:/home/pi/Desktop/cortex/projects/pr_raspbian/bridge.c
+1547032585 source:/home/pi/Desktop/cortex/projects/pr_raspbian/bridge.c
 	<stdio.h>
 	<stdlib.h>
 	"../../sources/bridge.h"
+	"../../sources/defaults.c"
 
 1547026701 /home/pi/Desktop/cortex/sources/bridge.h
 
@@ -3360,7 +3361,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1547026701 /home/pi/Desktop/cortex/sources/menu.c
+1547032784 /home/pi/Desktop/cortex/sources/menu.c
 	<stdio.h>
 	"voxel.c"
 	"scene.c"
